@@ -4,7 +4,8 @@
   "description": "initialize a react project with typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build":"webpack",
+    "dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "react-transition-group": "^4.4.5"
   },
   "devDependencies": {
+    "@webpack-cli/generators": "^3.0.1",
     "hoist-non-react-statics": "^3.3.2",
     "html-webpack-plugin": "^5.5.0",
     "source-map-loader": "^4.0.1",
